@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=IBM+Plex+Serif:wght@400;700&family=Jura&family=Love+Ya+Like+A+Sister&family=Merriweather:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=IBM+Plex+Serif:wght@400;700&family=Jura&family=Love+Ya+Like+A+Sister&family=Merriweather:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fuzzy+Bubbles&family=IBM+Plex+Serif:wght@400;700&family=Jura&family=Love+Ya+Like+A+Sister&family=Merriweather:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+body{
+   background-image: url('/images/proback2.jpg');
+   background-size: cover;
+/* background-position: center; */
+}
+
+h1{
+    color: #E08F71;
+    font-size: 80px;
+    text-align: center;
+    margin: 20px 40px;
+    animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) both;
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #E08F71;
+}
+.project{
+    display: flex;
+   justify-content: space-around;
+    
+}
+nav i{
+    font-size: 40px;
+  
+    color:#E08F71 ;
+    margin: 20px 40px;
+}
+nav i:hover{
+    color: #82BAB1;
+}
+
+.box img{
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) both;
+}
+
+.puff-in-center{animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) both}
+@keyframes puff-in-center{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+
+
+
+/* @media screen  and (max-width:1200px){
+    .project{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+} */
+
+@media screen and (min-width:400px) and (max-width:1200px){
+    .project{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width:100%
+    }
+   
+}
