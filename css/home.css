@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Love Ya Like A Sister', cursive; 
+
   }
 header{
 padding: 40px;
@@ -35,10 +36,10 @@ nav{
  header nav a{
   text-decoration: none;
   font-size: 30px;
-  /* color: black; */
+  color: black;
   /* color:#8C8580; */
 /* color:#A5938A; */
-color:#AB815E;
+/* color:#AB815E; */
 font-weight: 600;
  }
  header nav a:hover{
@@ -54,11 +55,11 @@ font-weight: 600;
   .photo h1{
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 100px;
-    color:#AB815E;
-    /* color: black; */
+    /* color:#AB815E; */
+    color: black;
     /* color:#8C8580; */
     /* color: #A5938A; */
-    font-weight: 600;
+    /* font-weight: 600; */
    /* color: #DEC3A4; */
     text-align: center justify;
    animation:tracking-in-expand .7s ease-out both;
@@ -73,7 +74,7 @@ font-weight: 600;
   border: none;
   font-weight: bold;
   font-size: 20px;
-  color: #874A19;
+  color:black;
 }
 div button:hover{
   color: red;

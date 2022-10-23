@@ -1,2 +1,1 @@
-# Music
-# this is my personal project
+# My portfolio
